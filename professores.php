@@ -1,5 +1,7 @@
 <?php
 
+include "valida_login.php";
+
 $nome = "Valdir";
 $curso = "ADS";
 $universidade = "Unimar";
