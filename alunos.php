@@ -6,11 +6,6 @@ $result = mysqli_query($connection, "SELECT * FROM aluno");
 
 $alunos = $result->fetch_all(MYSQLI_ASSOC);
 
-// echo "<pre>";
-// print_r($alunos);
-// echo "</pre>";
-
-
 ?>
 <!DOCTYPE html>
 <html lang="ptBR">
