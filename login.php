@@ -21,5 +21,6 @@
 
         <input type="submit" name="btnLogin" id="btnLogin" value="Entrar">
     </form>
+    <a href="cadastro_login.php">Fazer cadastro</a>
 </body>
 </html>

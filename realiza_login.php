@@ -15,7 +15,7 @@ if (isset($_REQUEST['btnLogin'])) {
     }
 
     if (isset($_REQUEST['senha']) && !empty($_REQUEST['senha'])) {
-        $senha = $_REQUEST['senha'];
+        $senha = sha1($_REQUEST['senha']);
     } else {
         $erro = True;
         $errors[] = "Campo de senha vazio";
